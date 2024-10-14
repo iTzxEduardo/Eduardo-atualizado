@@ -1,0 +1,64 @@
+{
+  "maquinas": [
+    {
+      "tempoVidaEstimado": 10,
+      "codigo": "M001",
+      "localizacao": "Linha 1",
+      "nome": "Torno CNC",
+      "fabricante": "Siemens",
+      "manual": "URL do manual",
+      "modelo": "CNC 3000",
+      "dataAquisicao": "2020-01-10",
+      "detalhes": "OperaÃ§Ã£o em alta precisÃ£o",
+      "id": "1"
+    }
+  ],
+  "manutencoes": [
+    {
+      "id": "1",
+      "maquinaId": 1,
+      "data": "2024-10-07",
+      "tipo": "Preventiva",
+      "pecasTrocadas": "Correia",
+      "tempoDeParada": 4,
+      "tecnicoId": "João Silva",
+      "observacoes": "Substituição preventiva da correia."
+    },
+    {
+      "id": "2",
+      "maquinaId": 2,
+      "data": "2024-10-10",
+      "tipo": "Preventiva",
+      "pecasTrocadas": "luz",
+      "tempoDeParada": 8,
+      "tecnicoId": "Pedro Nascimento",
+      "observacoes": "Substituição Lampada."
+    }
+  ],
+  "falhas": [
+    {
+      "id": "1",
+      "maquinaId": 1,
+      "data": "2024-09-28",
+      "poblema": "Falha no motor",
+      "prioridade": "Alta",
+      "operador": "Carlos Lima"
+    },
+    {
+      "id": "2",
+      "maquinaId": 2,
+      "data": "2024-10-28",
+      "poblema": "Falha no motor",
+      "prioridade": "media",
+      "operador": "Carlos Lima"
+    }
+  ],
+  "tecnicos": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "especialidade": "Mecânica",
+      "disponibilidade": "Livre"
+    }
+  ]
+}

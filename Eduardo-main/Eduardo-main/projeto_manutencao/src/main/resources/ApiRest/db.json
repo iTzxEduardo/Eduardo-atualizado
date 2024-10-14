@@ -1,0 +1,100 @@
+{
+  "maquinas": [
+    {
+      "id": "abc1",
+      "codigo": "M004",
+      "nome": "Fresadora CNC",
+      "modelo": "FRE 6000",
+      "fabricante": "DMG MORI",
+      "dataAquisicao": "2024-01-20",
+      "tempoVidaEstimado": 10,
+      "localizacao": "Linha 3",
+      "detalhes": "Máquina de fresagem de alta precisão.",
+      "manual": "https://url-domanual.com/manualM004"
+    },
+    {
+      "tempoVidaEstimado": 6,
+      "codigo": "M005",
+      "localizacao": "Linha 1",
+      "nome": "Torno CNC",
+      "fabricante": "Haas",
+      "manual": "https://url-domanual.com/manualM005",
+      "modelo": "TL-1",
+      "dataAquisicao": "2024-03-15",
+      "detalhes": "Torno de alta eficiência.",
+      "id": "xyz2"
+    }
+  ],
+  "historicoManutencao": [
+    {
+      "tempoDeParada": 5,
+      "observacoes": "Calibração da máquina.",
+      "tipo": "Preventiva",
+      "data": "2024-10-08",
+      "maquinaId": "abc1",
+      "pecasTrocadas": "Nenhuma",
+      "tecnicoId": "Fernando Souza",
+      "id": "2"
+    },
+    {
+      "tempoDeParada": 3,
+      "observacoes": "Substituição da correia de transmissão.",
+      "tipo": "Corretiva",
+      "data": "2024-10-10",
+      "maquinaId": "xyz2",
+      "pecasTrocadas": "Correia de transmissão",
+      "tecnicoId": "Carlos Alberto",
+      "id": "b3c4"
+    },
+    {
+      "id": "4def",
+      "tempoDeParada": 2,
+      "observacoes": "Troca de óleo e filtro.",
+      "tipo": "Preventiva",
+      "data": "2024-10-11",
+      "maquinaId": "abc1",
+      "pecasTrocadas": "Óleo, Filtro",
+      "tecnicoId": "Ana Beatriz"
+    }
+  ],
+  "falhas": [
+    {
+      "id": "4",
+      "maquinaId": "abc1",
+      "data": "2024-09-28",
+      "problema": "Falha no sistema hidráulico",
+      "prioridade": "Alta",
+      "operador": "Lucas Mendes"
+    },
+    {
+      "data": "2024-10-05",
+      "prioridade": "Baixa",
+      "maquinaId": "xyz2",
+      "problema": "Ruído anormal",
+      "operador": "Mariana Lima",
+      "id": "456e"
+    },
+    {
+      "id": "5fgh",
+      "data": "2024-10-11",
+      "prioridade": "Média",
+      "maquinaId": "abc1",
+      "problema": "Falha no sensor de temperatura",
+      "operador": "Roberto"
+    }
+  ],
+  "tecnicos": [
+    {
+      "id": "cd67",
+      "nome": "João Silva",
+      "especialidade": "Mecânica",
+      "disponibilidade": "Disponível"
+    },
+    {
+      "id": "ef89",
+      "nome": "Ana Costa",
+      "especialidade": "Elétrica",
+      "disponibilidade": "Ocupado"
+    }
+  ]
+}
